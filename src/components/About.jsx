@@ -1,4 +1,4 @@
-import {about} from "../assets/images/about.png";
+import about from "../assets/images/about.png";
 function About() {
   return (
     <section id="about" className="relative py-28 overflow-hidden bg-linear-to-b from-[#FDECEC] to-white">
