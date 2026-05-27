@@ -1,28 +1,30 @@
+import {Panda_Bear, Lily_Flower, Cat_Paw, Choco_Cake} from "../assets/images/products";
+
 export const products = [
   {
     id: 1,
     name: "Panda Bear",
     price: "₹299",
-    image: "./src/assets/images/products/Panda_Bear.png",
+    image: {Panda_Bear},
     category: "Cute"
   },
   {
     id: 2,
     name: "Lily Flower",
     price: "₹299",
-    image: "./src/assets/images/products/Lily_Flower.png",
+    image: {Lily_Flower},
     category: "Premium"
   },{
     id: 3,
     name: "Cat Paw",
     price: "₹299",
-    image: "./src/assets/images/products/Cat_Paw.png",
+    image: {Cat_Paw},
     category: "Custom"
   },{
     id: 4,
     name: "Choco Cake",
     price: "₹299",
-    image: "./src/assets/images/products/Choco_Cake.png",
+    image: {Choco_Cake},
     category: "Custom"
   },
 ];

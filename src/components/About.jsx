@@ -1,3 +1,4 @@
+import {about} from "../assets/images/about.png";
 function About() {
   return (
     <section id="about" className="relative py-28 overflow-hidden bg-linear-to-b from-[#FDECEC] to-white">
@@ -14,7 +15,7 @@ function About() {
           <div className="absolute w-72 h-72 bg-[#FFD6D6]/40 rounded-full blur-2xl"></div>
 
           <img
-            src="./src/assets/images/about.png"
+            src={about}
             alt="About Syirana"
             className="relative w-full max-w-sm rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
           />
