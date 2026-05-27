@@ -1,4 +1,6 @@
-import {phone} from "../config/contact";
+const phone = import.meta?.env?.VITE_WHATSAPP_NUMBER || "919999999999";
+const email = import.meta?.env?.VITE_EMAIL || "example@gmail.com";
+
 function Footer() {
 
   return (
@@ -75,6 +77,15 @@ function Footer() {
               </a>
             </li>
 
+          <li>
+              <a
+                href={`mailto:${email}`}
+                className="text-gray-600 hover:text-[#FF6B81] transition"
+
+              >
+                Email
+              </a>
+            </li>
           </ul>
         </div>
 

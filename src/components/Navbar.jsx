@@ -1,11 +1,10 @@
 import { useState, useEffect, useRef } from "react";
-import {phone} from "../config/contact";
 const sections = ["home", "products", "about", "contact"];
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("home");
-
+  const phone = import.meta?.env?.VITE_WHATSAPP_NUMBER || "919999999999";
   const indicatorRef = useRef(null);
   const linkRefs = useRef({});
 

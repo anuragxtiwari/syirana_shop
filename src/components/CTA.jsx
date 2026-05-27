@@ -1,4 +1,4 @@
-import {phone} from "../config/contact";
+const phone = import.meta?.env?.VITE_WHATSAPP_NUMBER || "919999999999";
 function CTA() {
 
   const message = "Hi, I want a custom feather keychain.";
