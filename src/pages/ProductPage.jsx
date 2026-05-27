@@ -13,7 +13,7 @@ function ProductPage() {
       : products.filter((p) => p.category === selectedCategory);
 
   return (
-    <section className="pt-32 pb-24 bg-gradient-to-b from-[#FFF7F3] to-[#FFEDEE] min-h-screen">
+    <section className="pt-32 pb-24 bg-linear-to-b from-[#FFF7F3] to-[#FFEDEE] min-h-screen">
 
       <div className="max-w-7xl mx-auto px-6">
 

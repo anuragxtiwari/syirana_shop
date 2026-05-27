@@ -16,7 +16,7 @@ function ProductCard({ name, price, image }) {
       {/* Image */}
       <div className="relative aspect-square overflow-hidden">
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent z-10 opacity-0 group-hover:opacity-100 transition"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/10 to-transparent z-10 opacity-0 group-hover:opacity-100 transition"></div>
 
         <img
           src={image}

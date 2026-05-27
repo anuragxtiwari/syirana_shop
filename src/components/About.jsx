@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="relative py-28 overflow-hidden bg-gradient-to-b from-[#FDECEC] to-white">
+    <section id="about" className="relative py-28 overflow-hidden bg-linear-to-b from-[#FDECEC] to-white">
 
       {/* Background Glow */}
       <div className="absolute -top-20 -right-20 w-72 h-72 bg-[#FFD6D6]/40 rounded-full blur-3xl"></div>
