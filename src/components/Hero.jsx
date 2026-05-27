@@ -56,7 +56,7 @@ function Hero() {
           <div className="absolute w-70 h-70 bg-[#FFD6D6]/40 rounded-full blur-2xl"></div>
 
           <img
-            src="public/images/hero1.png"
+            src="/images/hero1.png"
             alt="Feather keychains"
             className="relative w-full max-w-md rounded-3xl shadow-2xl hover:scale-105 transition duration-500"
           />
