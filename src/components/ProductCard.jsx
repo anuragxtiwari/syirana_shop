@@ -1,4 +1,4 @@
-import { phone } from "../config/contact";
+const phone = import.meta?.env?.VITE_WHATSAPP_NUMBER || "919999999999";
 function ProductCard({ name, price, image }) {
 
   const message = `Hi, I want to order:\n\nProduct: ${name}\nPrice: ${price}`;
